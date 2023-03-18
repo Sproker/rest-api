@@ -28,6 +28,7 @@ The API will be accessible at localhost.
 The loan application will be rejected if:
 * The borrower is blacklisted (stored in db)
 * There have been too many applications from one personal id in the last 24 hours
+
 Monthly interest of 5% is automatically calculated and inserted to the database.
 
 ## Technical setup
